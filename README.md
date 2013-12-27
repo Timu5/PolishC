@@ -27,7 +27,7 @@ Keywords
     dla -> for
     idzdo -> goto
     jezeli -> if
-    calkowita -> int
+    calkowita, calkowity -> int
     dlugi, dluga -> long
     rejestr -> register
     zwroc -> return
