@@ -6,6 +6,9 @@ C language with polish keywords
 Compilation
 -----------
 g++ -O3 -o polishc polishc.cpp
+Using
+-----
+polishc < input_file > output_file
 Keywords
 --------
     glowna -> main
