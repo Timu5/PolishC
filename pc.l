@@ -1,7 +1,7 @@
 %{
 #include <stdio.h>
 //flex with --case-insensitive
-extern "C" int yywrap() { }
+extern "C" int yywrap() { exit(0);}
 bool isDoubleQuotes = false;
 bool isSingleQuotes = false;
 #define TOKEN(b) if(!isDoubleQuotes && !isSingleQuotes){printf(b);}else{printf(yytext);}
